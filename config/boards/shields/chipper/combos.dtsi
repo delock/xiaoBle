@@ -7,6 +7,7 @@
   ╰───────╮ LH2 LH1 LH0 │ │ RH0 RH1 RH2 ╭───────╯
           ╰─────────────╯ ╰─────────────╯ */
 
+#include "keypos_42keys.h"
 // use global-quick-tap-ms for combos (requires PR 1387)
 #undef COMBO_HOOK
 #define COMBO_HOOK global-quick-tap-ms = <100>;
@@ -14,9 +15,20 @@
 #define COMBO_TERM_SLOW 50
 #define COMBO_TERM_FAST 35
 
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_cw {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <6 30>;
+            bindings = <&nayeon>;
+        };
+    };
+};
+
 // number cluster
-ZMK_COMBO(one_,  &kp N1,        LT4 LM4,     DEF, COMBO_TERM_SLOW)
 #if 0
+ZMK_COMBO(one_,  &kp N1,        LT4 LM4,     DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(two_,  &kp N2,        LT3 LM3,     DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(three, &kp N3,        LM2 LT2,     DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(four,  &kp N4,        LM1 LT1,     DEF, COMBO_TERM_SLOW)

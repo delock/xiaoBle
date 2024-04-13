@@ -1,4 +1,4 @@
-#define ZMK_MACRO(name, tap_time, macro_bindings) \
+/*#define ZMK_MACRO(name, tap_time, macro_bindings) \
 / { \
     macros { \
         name: name { \
@@ -10,7 +10,7 @@
         ; \
         }; \
     }; \
-};
+};*/
 
 ZMK_MACRO(vimquit, 5, &kp COLON &kp Q &kp RET)
 ZMK_MACRO(vimwrite, 5, &kp COLON &kp W &kp A &kp EXCL &kp RET)

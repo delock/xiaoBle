@@ -20,7 +20,7 @@
     / { \
         combos { \
             compatible = "zmk,combos"; \
-            combo_name { \
+            combo_ame { \
                 timeout-ms = <COMBO_TIMEOUT>; \
                 key-positions = <6 30>; \
                 bindings = <&nayeon>; \

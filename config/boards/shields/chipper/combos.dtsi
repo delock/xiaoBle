@@ -17,16 +17,16 @@
 #define COMBO_TERM_FAST 35
 
 #define ZMK_COMBO(name, binding_list, positions, layer_list, timeout) \
-    / { \
-        combos { \
-            compatible = "zmk,combos"; \
-            combo_name {\
-                timeout-s = <COMBO_TIMEOUT>; \
-                key-positions = <6 30>; \
-                bindings = <&nayeon>; \
-            }; \
-        }; \
-    };
+   / { \
+       combos { \
+           compatible = "zmk,combos"; \
+           combo_name {\
+               timeout-ms = <COMBO_TIMEOUT>; \
+               key-positions = <6 30>; \
+               bindings = <&nayeon>; \
+           }; \
+       }; \
+   };
                 //timeout-ms = <timeout>; \
                 //key-positions = <positions>; \
                 //bindings = <binding_list>; \

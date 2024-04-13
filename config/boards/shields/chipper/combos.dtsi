@@ -29,23 +29,6 @@
         }; \
     };
 
-                //timeout-ms = <timeout>; \
-                //key-positions = <positions>; \
-                //bindings = <binding_list>; \
-                //layers = <layer_list>; \
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_cw {
-            timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <6 30>;
-            bindings = <&nayeon>;
-            //layers = <0>;
-        };
-    };
-};
-
 // number cluster
 ZMK_COMBO(one_,  &kp N1,        LT4 LM4,     DEF, COMBO_TERM_SLOW)
 #if 0

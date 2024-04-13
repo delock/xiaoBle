@@ -3,6 +3,7 @@
     macros { \
         name: name { \
             compatible = "zmk,behavior-macro"; \
+            #binding-cells = <0>; \
             bindings \
                 = <&macro_tap_time tap_time> \
                 ,<&macro_tap macro_bindings> \

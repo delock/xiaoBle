@@ -13,3 +13,9 @@
 };
 
 ZMK_MACRO(vimquit, 5, &kp COLON &kp Q &kp RET)
+ZMK_MACRO(vimwrite, 5, &kp COLON &kp W &kp A &kp EXCL &kp RET)
+ZMK_MACRO(srepeat, 5, &kp N &kp DOT)
+ZMK_MACRO(drepeat, 5, &kp J &kp DOT)
+ZMK_MACRO(ndiff, 5, &kp RBKT &kp C)
+ZMK_MACRO(pdiff, 5, &kp D &kp O)
+ZMK_MACRO(todo, 5, &kp MINUS &kp SPACE &kp LBKT &kp SPACE &kp RBKT &kp SPACE)

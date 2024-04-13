@@ -21,12 +21,12 @@
         combos { \
             compatible = "zmk,combos"; \
             combo_name { \
+                timeout-ms = <timeout>; \
+                key-positions = <positions>; \
+                bindings = <binding_list>; \
             }; \
         }; \
     };
-                //timeout-ms = <timeout>; \
-                //key-positions = <positions>; \
-                //bindings = <binding_list>; \
                 //layers = <layer_list>; \
 
 / {

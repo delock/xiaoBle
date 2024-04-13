@@ -14,6 +14,7 @@
 #define COMBO_TERM_SLOW 50
 #define COMBO_TERM_FAST 35
 
+#if 0
 // number cluster
 ZMK_COMBO(one_,  &kp N1,        LT4 LM4,     DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(two_,  &kp N2,        LT3 LM3,     DEF, COMBO_TERM_SLOW)
@@ -26,7 +27,6 @@ ZMK_COMBO(eight, &kp N8,        LM2 LB2,     DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(nine,  &kp N9,        LM1 LB1,     DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(zero,  &kp N0,        LM0 LB0,     DEF, COMBO_TERM_SLOW)
 
-#if 0
 // FN cluster
 ZMK_COMBO(f1_,   &kp F1,        LT4 LM4,     NAV, COMBO_TERM_SLOW)
 ZMK_COMBO(f2_,   &kp F2,        LT3 LM3,     NAV, COMBO_TERM_SLOW)

@@ -23,7 +23,7 @@
 #define NUM 3
 #define SYS 4
 
-//#include "combos.dtsi"
+#include "combos.dtsi"
 
 / {
     macros {

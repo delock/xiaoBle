@@ -35,7 +35,7 @@
         combo_cw {
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <6 30>;
-            //bindings = <&nayeon>;
+            bindings = <&nayeon>;
             //layers = <0>;
         };
     };

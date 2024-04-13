@@ -11,3 +11,4 @@
     }; \
 };
 
+ZMK_MACRO(vimquit, 5, &kp COLON &kp Q &kp RET)

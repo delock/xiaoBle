@@ -23,6 +23,7 @@
 
 #include "combos.dtsi"
 #include "macros.dtsi"
+#include "mouse.dtsi"
 
 / {
     macros {

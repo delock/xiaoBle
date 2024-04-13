@@ -20,7 +20,7 @@
     / { \
         combos { \
             compatible = "zmk,combos"; \
-            combo_##name { \
+            combo_name { \
             }; \
         }; \
     };

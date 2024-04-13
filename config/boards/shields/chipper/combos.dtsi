@@ -20,14 +20,14 @@
     / { \
         combos { \
             compatible = "zmk,combos"; \
+            combo_##name { \
+            }; \
         }; \
     };
-            //combo_##name { \
                 //timeout-ms = <timeout>; \
                 //key-positions = <positions>; \
                 //bindings = <binding_list>; \
                 //layers = <layer_list>; \
-            //}; \
 
 / {
     combos {

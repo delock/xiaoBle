@@ -41,7 +41,6 @@ ZMK_COMBO(eight, &kp N8,        LM2 LB2,     DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(nine,  &kp N9,        LM1 LB1,     DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(zero,  &kp N0,        LM0 LB0,     DEF, COMBO_TERM_SLOW)
 
-#if 0
 // FN cluster
 ZMK_COMBO(f1_,   &kp F1,        LT4 LM4,     NAV, COMBO_TERM_SLOW)
 ZMK_COMBO(f2_,   &kp F2,        LT3 LM3,     NAV, COMBO_TERM_SLOW)
@@ -76,4 +75,3 @@ ZMK_COMBO(sqt,   &kp SQT,       RM4 RB4,     DEF NAV, COMBO_TERM_SLOW)
 ZMK_COMBO(bspc,  &kp BSPC,      RT2 RT3,     DEF, COMBO_TERM_FAST)
 ZMK_COMBO(del,   &kp DEL,       RT2 RT3,     NAV, COMBO_TERM_SLOW)
 ZMK_COMBO(enter, &kp ENTER,     RM2 RM3,     DEF NAV, COMBO_TERM_SLOW)
-#endif

@@ -33,16 +33,16 @@
     combos {
         compatible = "zmk,combos";
         combo_cw {
-            timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <6 30>;
-            bindings = <&nayeon>;
-            layers = <0>;
+            //timeout-ms = <COMBO_TIMEOUT>;
+            //key-positions = <6 30>;
+            //bindings = <&nayeon>;
+            //layers = <0>;
         };
     };
 };
 
 // number cluster
-ZMK_COMBO(one_,  &kp N1,        LT4 LM4,     DEF, COMBO_TERM_SLOW)
+//ZMK_COMBO(one_,  &kp N1,        LT4 LM4,     DEF, COMBO_TERM_SLOW)
 #if 0
 ZMK_COMBO(two_,  &kp N2,        LT3 LM3,     DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(three, &kp N3,        LM2 LT2,     DEF, COMBO_TERM_SLOW)

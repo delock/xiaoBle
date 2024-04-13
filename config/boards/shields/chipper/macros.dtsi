@@ -1,0 +1,13 @@
+#define ZMK_MACRO(name, tap_time, macro_bindings) \
+/ { \
+    macros { \
+        name: name { \
+            compatible = "zmk,behavior-macro"; \
+            bindings \
+                = <&macro_tap_time tap_time> \
+                ,<&macro_tap macro_bindings> \
+        ; \
+        }; \
+    }; \
+};
+

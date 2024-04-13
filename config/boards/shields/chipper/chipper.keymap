@@ -23,6 +23,7 @@
 #define SYS 4
 
 #include "combos.dtsi"
+#include "macros.dtsi"
 
 / {
     macros {

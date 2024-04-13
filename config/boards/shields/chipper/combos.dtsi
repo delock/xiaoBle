@@ -33,10 +33,10 @@
     combos {
         compatible = "zmk,combos";
         combo_cw {
-            //timeout-ms = <COMBO_TIMEOUT>;
-            //key-positions = <6 30>;
-            //bindings = <&nayeon>;
-            //layers = <0>;
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <6 30>;
+            bindings = <&nayeon>;
+            layers = <0>;
         };
     };
 };

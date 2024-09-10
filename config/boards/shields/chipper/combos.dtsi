@@ -69,7 +69,7 @@ ZMK_COMBO(minus, &kp MINUS,     RT0 RM0,     DEF NAV, COMBO_TERM_SLOW)
 ZMK_COMBO(equal, &kp EQUAL,     RM0 RB0,     DEF NAV, COMBO_TERM_SLOW)
 
 ZMK_COMBO(bslh,  &kp BSLH,      RM4 RT4,     DEF NAV, COMBO_TERM_SLOW)
-ZMK_COMBO(sqt,   &kp SQT,       RM4 RB4,     DEF NAV, COMBO_TERM_SLOW)
+ZMK_COMBO(sqt,   &kp SQT,       RM3 RM4,     DEF NAV, COMBO_TERM_SLOW)
 
 // right hand special cluster
 ZMK_COMBO(bspc,  &kp BSPC,      RT2 RT3,     DEF, COMBO_TERM_FAST)
